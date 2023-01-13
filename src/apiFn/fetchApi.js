@@ -1,5 +1,6 @@
 import axios from 'axios'
 export const FetchApi = async (setLoad, setError) => {
+    //api call here
     let url = "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json"
     try {
         setLoad(true)
