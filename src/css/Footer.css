@@ -1,0 +1,51 @@
+.footer {
+    width: 80%;
+    height: auto;
+    padding: 3rem 10%;
+    background-color: rgba(128, 128, 128, 0.467);
+    color: black;
+
+}
+
+.footer_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-x: hidden;
+}
+
+
+.footer div {
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+small {
+    font-size: .8rem;
+}
+
+
+/* Media  query For Small Device */
+
+@media screen and (max-width: 600px) {
+    .footer {
+        padding: 2rem 10%;
+    }
+
+    .footer_flex {
+        gap: 1rem;
+    }
+
+    .footer div {
+        font-size: small;
+        font-weight: 400;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    small {
+        font-size: .6rem;
+    }
+
+
+}

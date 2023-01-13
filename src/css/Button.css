@@ -1,0 +1,23 @@
+.Button {
+    width: auto;
+    padding: .7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: .5rem;
+    font-family: "mono"
+}
+
+
+/* Media Quries */
+@media screen and (max-width: 1024px) {}
+
+/* _________MEDIA QUERIES(small DEVICES)__________*/
+
+@media screen and (max-width: 600px) {
+    .Button {
+        font-size: small;
+        padding: .2rem;
+        font-weight: 400;
+    }
+}

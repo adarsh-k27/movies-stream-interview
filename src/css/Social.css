@@ -1,0 +1,41 @@
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.icon {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.icon-store {
+    width: 6rem;
+    height: 1.7rem;
+}
+
+/* Media  query For Small Device */
+@media screen and (max-width: 600px) {
+    .socials {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .socials div {
+        gap: 1rem;
+    }
+
+    .icon {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+
+    .icon-store {
+        width: 4rem;
+        height: 1.4rem;
+    }
+}

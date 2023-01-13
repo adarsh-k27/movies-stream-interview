@@ -1,0 +1,50 @@
+.Navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    padding: .5rem 0rem;
+    background-image: linear-gradient(to right, var(--blue), #5483e9);
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-around;
+    /* color: #414141c4; */
+}
+
+.NavBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.Bold {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+
+
+
+/* Media Quries */
+@media screen and (max-width: 1024px) {}
+
+/* _________MEDIA QUERIES(small DEVICES)__________*/
+
+@media screen and (max-width: 600px) {
+    .Navbar {
+        justify-content: space-evenly;
+    }
+
+    .NavBtn {
+        display: flex;
+        justify-content: end;
+        gap: .3rem;
+    }
+
+    .Bold {
+        font-weight: 600;
+        font-size: .8rem;
+    }
+}
